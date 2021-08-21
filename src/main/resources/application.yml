@@ -1,0 +1,13 @@
+#  Step 1 :  Enter database credentials and url
+#
+#  Test if application comes up. Also before all this, setup  a database connection
+#  in IntelliJ to verify you can connect to MySQL.
+#
+spring:
+  datasource:
+    username: admin
+    password: admin123
+    url: jdbc:mysql://creditbooth.crmsbsk3uk5a.us-east-2.rds.amazonaws.com:3306/creditbooth
+  sql:
+    init:
+      mode: always
